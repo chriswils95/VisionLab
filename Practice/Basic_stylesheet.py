@@ -1,4 +1,8 @@
 
+"""
+This script contains basic stylings for all windows
+"""
+
 main_stylesheet = """
     QLabel {
       qproperty-alignment: AlignCenter;

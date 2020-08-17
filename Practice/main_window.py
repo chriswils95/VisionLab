@@ -20,50 +20,34 @@ from Basic_stylesheet import main_stylesheet
 from similarity import Similarity_window
 
 
-
-
-
-
-# class LoadingScreen(QWidget):
-#    def __init__(self):
-#     super().__init__()
-#     self.setFixedSize(64, 64)
-#     self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.CustomizeWindowHint)
-#     self.label_animation = QLabel(self)
-#     self.movie = QMovie('/home/christopher/NSO_LIFE/Practice/831.gif')
-#     self.label_animation.setMovie(self.movie)
-#     timer = QTimer()
-#     self.startAnimation()
-#     timer.singleShot(3000, self.stopAnimation)
-
-#     self.show()
-
-   
-#    def startAnimation(self):
-#     self.movie.start() 
-   
-#    def stopAnimation(self):
-#     self.movie.stop()
-#     self.close()
-    
-
-
-
-class Second_Window():#QtWidgets.QMainWindow): #, Ui_PlayGroundWindow):
+"""
+###########################################################################################################################
+###   PLAYGROUND WINDOW CLASS   ###   PLAYGROUND WINDOW CLASS   ###   PLAYGROUND WINDOW CLASS
+###########################################################################################################################
+"""
+class Second_Window():
+  """This function opens the playground window and close the main window"""
   def __init__(self, parent):
-  #  super(Second_Window, self).__init__(parent)
-  #  self.setupUi(self)
    self.parent = parent
    self.playground_window = ComputerVisionPlayground()
    self.playground_window.master.bind("<Escape>", self.keyPressEvent)
    self.playground_window.master.mainloop()
+
+
+  """This function exit out this window and open the main window"""
   def keyPressEvent(self, event):
     self.playground_window.master.destroy()
     self.parent.showFullScreen()
     
      
 
+"""
+###########################################################################################################################
+###   MAIN WINDOW CLASS   ###   MAIN WINDOW CLASS   ###   MAIN WINDOW CLASS
+###########################################################################################################################
+"""
 class Window(QtWidgets.QMainWindow, Ui_MainWindow):
+  """This function opens the main window and lsitens for window frames click"""
   def __init__(self):
         QtWidgets.QMainWindow.__init__(self)
         Ui_MainWindow.__init__(self)
@@ -73,13 +57,17 @@ class Window(QtWidgets.QMainWindow, Ui_MainWindow):
         self.church.mousePressEvent = self.show_celebrity_playground
 
   
+  """This function opens the similarity face window"""
   def show_celebrity_playground(self, event):
    self.similarity_win = Similarity_window(self)
    self.similarity_win.showFullScreen()
+
+  """THis function opens the playground window"""
   def show_playground(self, event):
-  #  self.loading_screen = LoadingScreen()
    self.playground_window = Second_Window(self)
 
+
+  """This function opens the object detection window """
   def show_ai_playground(self, event):
      self.app = App(self)
      self.app.showFullScreen()
