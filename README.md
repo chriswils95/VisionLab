@@ -30,6 +30,6 @@ This playground allows user or students to play around with computer vision by s
 # SIMILARITY FACE DETECTION
 This playground allows users or students to match their face with faces of church leaders. To start the application click the start button. Clicking the start buttons allows the program to go through the pre-trained face models of all the church leaders and matches yours with the one with the closest confidence interval.
 Sto button stop the programs and the face evaluation, and the clear button clears the buttons colors and resets any counters.
-![Alt Text](https://github.com/chriswils95/VisionLab/blob/master/images/Screenshot%20from%202020-08-17%2009-49-08.png)
+![Alt Text](https://github.com/chriswils95/VisionLab/blob/master/images/Screenshot%20from%202020-08-17%2009-46-18.png)
 
 
