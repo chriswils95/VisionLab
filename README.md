@@ -16,5 +16,5 @@ With the Virtual Environemnt setup and activated download the following librarie
 On the Terminal, navigate to the downloaded folder, cd into the Practice Directory and run the main_window.py scripts using python main_window.py
 
 # Project Functionalities
-![Alt Text](https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753)
+![Alt Text](https://github.com/chriswils95/VisionLab/blob/master/images/Screenshot%20from%202020-08-17%2009-44-29.png)
 
