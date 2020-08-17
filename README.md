@@ -37,7 +37,7 @@ This model allows users or students to train an ai to do object detection. As fo
 ![Alt Text](https://github.com/chriswils95/VisionLab/blob/master/images/Screenshot%20from%202020-08-17%2009-46-33.png)
 * FACE DETECTION
   * Directions
-    Under the dataset drop down menu select face, type in your name on any name on the face name text box, position your face properly in front of the camera and       make sure you are in a bright environment. Click on the add button which captures your face from the camera and stores it in a directory. Make sure to add as much images as possible to have a more accurate result. After you are satisfied with your datasets click the train button which trains the AI to detect your face. Clicking the evaluate button, allows the AI to detect faces and display names of the faces, if your face is detected it will display your name and put a rectangle box on the detected face, else it will just say unknown.
+   * Under the dataset drop down menu select face, type in your name on any name on the face name text box, position your face properly in front of the camera and       make sure you are in a bright environment. Click on the add button which captures your face from the camera and stores it in a directory. Make sure to add as much images as possible to have a more accurate result. After you are satisfied with your datasets click the train button which trains the AI to detect your face. Clicking the evaluate button, allows the AI to detect faces and display names of the faces, if your face is detected it will display your name and put a rectangle box on the detected face, else it will just say unknown.
 * THUMBS DIRECTION DETECTION
   * Directions
 
