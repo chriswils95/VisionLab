@@ -32,4 +32,12 @@ This playground allows users or students to match their face with faces of churc
 Sto button stop the programs and the face evaluation, and the clear button clears the buttons colors and resets any counters.
 ![Alt Text](https://github.com/chriswils95/VisionLab/blob/master/images/Screenshot%20from%202020-08-17%2009-46-18.png)
 
+# OBJECT DETECTION
+This model allows users or students to train an ai to do object detection. As for now it is only limited to face detection, thumbs up and thumbs down detection.
+* FACE DETECTION
+ * Directions
+  * Under the dataset drop down menu select face, type in your name on any name on the face name text box, position your face properly in front of the camera and       make sure you are in a bright environment. Click on the add button which captures your face from the camera and stores it in a directory. Make sure to add as much images as possible to have a more accurate result. After you are satisfied with your datasets click the train button which trains the AI to detect your face. Clicking the evaluate button, allows the AI to detect faces and display names of the faces, if your face is detected it will display your name and put a rectangle box on the detected face, else it will just say unknown.
+* THUMBS DIRECTION DETECTION
+  * Directions
+
 
