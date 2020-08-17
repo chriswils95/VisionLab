@@ -16,5 +16,6 @@ With the Virtual Environemnt setup and activated download the following librarie
 On the Terminal, navigate to the downloaded folder, cd into the Practice Directory and run the main_window.py scripts using python main_window.py
 
 # Project Functionalities
-
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 
