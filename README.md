@@ -25,5 +25,5 @@ This project was built to allow students to be acquainted with artificial intell
 # COMPUTER VISION PLAYGROUND
 This playground allows user or students to play around with computer vision by setting hues, brightness, saturations etc.
 NOTE: Switching from the main window to the computer vision window takes like 5 seconds, this is due to the fact that the main window and vision window were written in different gui libraries
-![Alt Text](https://github.com/chriswils95/VisionLab/blob/master/images/Screenshot%20from%202020-08-17%2009-44-29.png)
+![Alt Text](https://github.com/chriswils95/VisionLab/blob/master/images/Screenshot%20from%202020-08-17%2009-49-08.png)
 
