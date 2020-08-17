@@ -17,5 +17,5 @@ On the Terminal, navigate to the downloaded folder, cd into the Practice Directo
 
 # Project Functionalities
 ![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+Format: ![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Flife-style%2Fevents%2Fsurya-grahan-today-annular-solar-eclipse-2019-december-images-photos-pics-video-check-out-these-breathing-pictures-of-the-seasons-last-surya-grahan-of-26-december-2019-india%2Fphotostory%2F72975550.cms&psig=AOvVaw2ZOCkUSobFNkZjL-VGTy6m&ust=1597715802067000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDh2KiRoesCFQAAAAAdAAAAABAD)
 
