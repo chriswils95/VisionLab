@@ -13,7 +13,10 @@ With the Virtual Environemnt setup and activated download the following librarie
 * pytorch following [this link](https://pytorch.org/get-started/locally/)
 
 # NOTE
-Change the self.spath variable to the path of church_leaders directory in your computer
+* similarity.py scripts
+ * Change the self.spath variable to the path of church_leaders directory in your computer
+ * In the self.apply_training function changed the path used of both the celebrities_faces.pkl and the celebrities_names.pkl to the path of these respective files in your computer
+* 
 
 
 # RUN THE PROJECT
