@@ -7,7 +7,7 @@ pip is needed which is used to install all the necessary libraries. To install p
 With the Virtual Environemnt setup and activated download the following libraries using pip install or sudo apt update:
 * PIllow using pip install pillow
 * cv2 using  pip3 install opencv-python or pip install opencv-python
-* tkinter using sudo apt-get install python-tk on Ubuntu, or pip install python-tk on Windows and Mac
+* tkinter using sudo apt-get install python-tk on Ubuntu, or pip install python-tk on Windows and Mac, if that doesnt type python or python3 press enter and do import tkinter as tk
 * pyqt5 using pip3 install --user pyqt5 
 * face_recognition using pip install face_recognition
 * pytorch following [this link](https://pytorch.org/get-started/locally/)
