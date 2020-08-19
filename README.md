@@ -12,6 +12,10 @@ With the Virtual Environemnt setup and activated download the following librarie
 * face_recognition using pip install face_recognition
 * pytorch following [this link](https://pytorch.org/get-started/locally/)
 
+# NOTE
+Change the self.spath variable to the path of church_leaders directory in your computer
+
+
 # RUN THE PROJECT
 On the Terminal, navigate to the downloaded folder, cd into the Practice Directory and run the main_window.py scripts using python main_window.py
 
